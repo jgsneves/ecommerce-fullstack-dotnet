@@ -1,0 +1,100 @@
+<h1 class="h4 titulo">Cadastro de Produto</h1>
+<div>
+  <p class="font-italic font-weight-bold mb-1"><small>Editando ProdutoId: {{produto.id}}</small></p>
+  <!-- Input de Nome -->
+  <label for="inputNome" class="sr-only"></label>
+  <input type="text"
+         id="inputNome"
+         name="nomeProduto"
+         placeholder="Nome do produto"
+         class="form-control mb-2 col-md-4"
+         [ngClass]="{
+          'is-invalid': nome.invalid && (nome.dirty || nome.touched),
+          'is-valid': nome.valid && (nome.dirty || nome.touched)
+         }"
+         [(ngModel)]="produto.nome"
+         #nome="ngModel"
+         required />
+
+  <div class="invalid-feedback mb-2" *ngIf="nome.invalid && (nome.dirty || nome.touched)">
+    <div *ngIf="nome.errors.required">
+      Campo de preenchimento obrigatório.
+    </div>
+  </div>
+
+  <!-- Input de Descrição -->
+  <label for="inputDescricao" class="sr-only"></label>
+  <input type="text"
+         id="inputDescricao"
+         name="descricaoProduto"
+         placeholder="Descreva o produto"
+         class="form-control mb-2 col-md-4"
+         [ngClass]="{
+          'is-invalid': descricao.invalid && (descricao.dirty || descricao.touched),
+          'is-valid': descricao.valid && (descricao.dirty || descricao.touched)
+         }"
+         [(ngModel)]="produto.descricao"
+         #descricao="ngModel"
+         required
+         minlength="50"/>
+
+  <div class="invalid-feedback mb-2" *ngIf="descricao.invalid && (descricao.dirty || descricao.touched)">
+    <div *ngIf="descricao.errors.required">
+      Campo de preenchimento obrigatório.
+    </div>
+    <div *ngIf="descricao.errors.minlength">
+      Descrição deve ter no mínimo 50 caracteres.
+    </div>
+  </div>
+
+  <!-- Input de Preço do Produto -->
+  <label for="inputPreco" class="sr-only"></label>
+  <input type="number"
+         id="inputPreco"
+         name="precoProduto"
+         placeholder="Informe o valor do produto"
+         class="form-control mb-2 col-md-4"
+         [ngClass]="{
+          'is-invalid': preco.invalid && (preco.dirty || preco.touched),
+          'is-valid': preco.valid && (preco.dirty || preco.touched)
+         }"
+         [(ngModel)]="produto.preco"
+         #preco="ngModel"
+         required />
+</div>
+
+<div class="invalid-feedback mb-2" *ngIf="preco.invalid && (preco.dirty || preco.touched)">
+  <div *ngIf="preco.errors.required">
+    Campo de preenchimento obrigatório.
+  </div>
+</div>
+
+<!-- Input para fazer upload de foto -->
+<div class="input-group mb-2">
+  <div class="custom-file col-md-4">
+    <input type="file"
+           class="custom-file-input"
+           id="inputFile"
+           aria-describedby="inputGroupFileAddon04"
+           (change)="inputChange($event.target.files)">
+    <label class="custom-file-label" for="inputFile">Escolha uma foto para o produto</label>
+  </div>
+</div>
+
+
+<div class="mt-4">
+  <!-- Botão enviar -->
+  <button class="btn btn-primary mb-2 mr-2" (click)="cadastrar()" [disabled]="ativar_spinner">
+    <span class="spinner-border spinner-border-sm" *ngIf="ativar_spinner"></span>
+    Cadastrar
+  </button>
+
+
+  <!-- Botão cancelar -->
+  <a class="btn btn-secondary mb-2" href="./pesquisar-produto">Cancelar</a>
+</div>
+
+<!-- Mensagem de erro -->
+<div class="alert alert-danger col-md-4" *ngIf="mensagem">
+  {{mensagem}}
+</div>

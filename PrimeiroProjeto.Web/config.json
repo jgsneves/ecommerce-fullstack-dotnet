@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "SqlServerConnection": "",
+    "PrimeiroProjetoDB": "Server=localhost;Database=PrimeiroProjetoDB;Trusted_Connection=True;"
+  }
+}

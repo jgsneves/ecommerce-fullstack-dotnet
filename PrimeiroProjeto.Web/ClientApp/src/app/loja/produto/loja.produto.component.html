@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6"><img src="../../../../../arquivos/{{produto.nomeArquivo}}" style="max-height: 500px; max-width: 500px;" /></div>
+    <div class="col-md-6">
+      <div class="row h1">{{produto.nome}}</div>
+      <div class="row" style="text-align: justify;">{{produto.descricao}}</div>
+      <div class="row h3 mt-3">R$ {{produto.preco}}</div>
+      <div class="mt-4 ml-n3">
+        <button class="btn btn-primary btn-lg" (click)="comprar()">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>

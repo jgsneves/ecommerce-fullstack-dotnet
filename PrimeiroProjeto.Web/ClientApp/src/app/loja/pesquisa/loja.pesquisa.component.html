@@ -1,0 +1,21 @@
+<div *ngIf="!produtos">
+  <span class="spinner-border spinner-border-sm"></span>
+  Listando os produtos...
+</div>
+
+<div class="container" *ngIf="produtos">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let p of produtos">
+      <a (click)="abrirProduto(p)" style="cursor: pointer;">
+        <div class="card mt-3">
+          <img class="card-top ml-2 mt-2 mr-2" src="../../../../../arquivos/{{p.nomeArquivo}}" style="max-height: 200px; max-width: 200px;" />
+          <div class="card-body" style="min-height: 200px">
+            <h5 class="card-title">{{p.nome}}</h5>
+            <div class="card-text">{{p.descricao | truncate: 50}}</div>
+            <h5 class="h5">R$ {{p.preco}}</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

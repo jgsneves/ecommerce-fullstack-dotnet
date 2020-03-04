@@ -1,0 +1,8 @@
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\obj\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.AssemblyInfoInputs.cache
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\obj\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.AssemblyInfo.cs
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\bin\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.deps.json
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\bin\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.dll
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\bin\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.pdb
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\obj\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.dll
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\obj\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.pdb
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Dominio\obj\Debug\netcoreapp2.2\PrimeiroProjeto.Dominio.csprojAssemblyReference.cache

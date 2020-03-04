@@ -1,0 +1,11 @@
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\bin\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.deps.json
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\bin\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.dll
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\bin\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.pdb
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.csprojAssemblyReference.cache
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.AssemblyInfoInputs.cache
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.AssemblyInfo.cs
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.dll
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.pdb
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\bin\Debug\netcoreapp3.1\PrimeiroProjeto.Dominio.dll
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\bin\Debug\netcoreapp3.1\PrimeiroProjeto.Dominio.pdb
+C:\Users\JoaoNeves\source\repos\PrimeiroProjeto\PrimeiroProjeto.Repositorio\obj\Debug\netcoreapp3.1\PrimeiroProjeto.Repositorio.csproj.CopyComplete

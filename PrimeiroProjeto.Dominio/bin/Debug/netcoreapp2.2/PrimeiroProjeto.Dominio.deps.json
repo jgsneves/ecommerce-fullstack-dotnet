@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "PrimeiroProjeto.Dominio/1.0.0": {
+        "runtime": {
+          "PrimeiroProjeto.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PrimeiroProjeto.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
