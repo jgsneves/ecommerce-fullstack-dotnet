@@ -18,6 +18,12 @@
             <a class="nav-link text-dark" [routerLink]='["/pesquisar-produto"]'>Produtos</a>
           </li>
 
+          <li class="nav-item" [routerLinkActive]='["link-active"]' *ngIf="usuarioLogado()">
+            <a class="nav-link text-dark" [routerLink]='["/loja-efetivar"]'>
+              <img src="assets/img/shopping-06-512.png" style="max-height: 30px; max-width: 30px" title="carrinho de compras"/>
+            </a>
+          </li>
+
           <li class="nav-item" [routerLinkActive]='["link-active"]' *ngIf="!usuarioLogado()">
             <a class="nav-link text-dark" [routerLink]='["/login"]'>Login</a>
           </li>

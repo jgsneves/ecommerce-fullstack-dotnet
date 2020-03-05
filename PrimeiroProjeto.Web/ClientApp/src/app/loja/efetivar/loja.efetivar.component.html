@@ -26,6 +26,10 @@
             <td style="width: 500px;">R$ {{p.preco | number: '2.0-2'}}</td>
             <td><button class="btn btn-secondary btn-sm" (click)="remover(p)">Remover</button></td>
           </tr>
+
+          <tr *ngIf="!mensagem()" style="text-align: center; font-style: italic; border: 200px; padding: 200px;">
+            Nenhum produto foi adicionado ao carrinho. Retorne à página principal e adicione novos itens.
+          </tr>
         </tbody>
       </table>
     </div>
@@ -36,7 +40,7 @@
           <div class="card-body">
             Valor total da compra:
             <h3 class="mb-4 mt-4">R$ {{total | number: '1.0-2'}}</h3>
-            <button class="btn btn-primary mb-2" style="width: 100%;">Finalizar compra</button>
+            <button class="btn btn-primary mb-2" style="width: 100%;" (click)="efetivarCompra()">Finalizar compra</button>
           </div>
         </div>
       </div>
