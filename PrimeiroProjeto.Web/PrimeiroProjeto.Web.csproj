@@ -118,6 +118,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\src\assets\img\" />
     <Folder Include="wwwroot\arquivos\" />
   </ItemGroup>
 

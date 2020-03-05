@@ -20,10 +20,12 @@ namespace PrimeiroProjeto.Web.Controllers
             try
             {
                 var usuarioCadastrado = _usuarioRepositorio.Obter(usuario.Email);
+
                 if (usuarioCadastrado != null)
                 {
                     return BadRequest("Usuário já cadastrado no sistema");
                 }
+
                 _usuarioRepositorio.Adicionar(usuario);
                 return Ok();
             } catch (Exception ex)

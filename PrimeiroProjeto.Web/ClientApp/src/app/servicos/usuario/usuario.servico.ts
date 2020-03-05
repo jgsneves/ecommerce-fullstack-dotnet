@@ -19,13 +19,20 @@ export class UsuarioServico {
   }
 
   get usuario(): Usuario {
-    let usuario_json = sessionStorage.getItem("usuario-autenticado");
-    this._usuario = JSON.parse(usuario_json);
+    if (!this._usuario) {
+      let usuario_json = sessionStorage.getItem("usuario-autenticado");
+      this._usuario = JSON.parse(usuario_json);
+    }
+
     return this._usuario;
   }
 
   public usuario_autenticado(): boolean {
     return this._usuario != null && this._usuario.email != "" && this._usuario.senha != "";
+  }
+
+  public usuario_administrador(): boolean {
+    return this.usuario_autenticado() && this._usuario.administrador == true;
   }
 
   public limpar_sessao() {
