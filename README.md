@@ -8,11 +8,11 @@ Projeto desenvolvido com a intenção de estudar a arquitetura MVC ser aplicada 
 
 </h3>
 
-## **:memo:  __O QUE É ESTE PROJETO?**
+## **:memo: O QUE É ESTE PROJETO?**
 
 O projeto visa criar uma loja virtual (e-commerce) onde seja exibida uma lista de produtos a venda, com implementação de autorizações e controle de acesso de usuários, havendo usuários comuns e também outros com poder de Admin, que poderiam adicionar ou remover itens disponíveis a venda, podendo também editar preços, imagens e descrição destes produtos. Os usuários comuns apenas podem ver os produtos e comprá-los.
 
-## **:computer:  __TECNOLOGIAS**
+## **:computer: TECNOLOGIAS**
 
 
 #### **Front-end do site:** Angular utilizando a tipagem do TypeScript e Bootstrap
